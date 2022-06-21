@@ -12,7 +12,7 @@ try {
 	print "Retrieve All List with GetMoreResults \n";
 	$getList = new ET_List();
 	$getList->authStub = $myclient;
-	$getList->props = array("ID","PartnerKey","CreatedDate","ModifiedDate","Client.ID","Client.PartnerClientKey","ListName","Description","Category","Type","CustomerKey","ListClassification","AutomatedEmail.ID");
+	$getList->props = array("ID","PartnerKey","CreatedDate","ModifiedDate","Client.ID","Client.PartnerClientKey","ListName","Description","Category","z	","CustomerKey","ListClassification","AutomatedEmail.ID");
 	$getResponse = $getList->get();
 	print_r('Get Status: '.($getResponse->status ? 'true' : 'false')."\n");
 	print 'Code: '.$getResponse->code."\n";
