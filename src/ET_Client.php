@@ -285,7 +285,7 @@ class ET_Client extends SoapClient
 
         $context = stream_context_create([
             'ssl' => [
-                'verify_peer' => ET_Util::shouldVerifySslPeer($this->sslVerifyPeer)
+                'verify_peer' =>false
             ]
         ]);
 
