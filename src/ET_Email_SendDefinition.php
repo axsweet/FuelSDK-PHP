@@ -10,8 +10,9 @@ namespace FuelSdk;
 class ET_Email_SendDefinition extends ET_CUDSupport
 {
     /** @var int 			Gets or sets the folder identifier. */
-	public  $folderId;
-	/** @var string|null 	contains last task ID if available */
+    public  $folderId;
+    public $folderProperty;
+    public $folderMediaType;	/** @var string|null 	contains last task ID if available */
 	public  $lastTaskID;
 
 	/** 

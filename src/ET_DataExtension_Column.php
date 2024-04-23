@@ -12,6 +12,10 @@ class ET_DataExtension_Column extends ET_GetSupport
 	/** 
 	* Initializes a new instance of the class.
 	*/
+    public  $folderId;
+    public $folderProperty;
+    public $folderMediaType;
+
 	function __construct()
 	{
 		$this->obj = "DataExtensionField";

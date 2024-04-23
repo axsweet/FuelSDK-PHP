@@ -18,6 +18,9 @@ class ET_TriggeredSend extends ET_CUDSupport
 	* @var int      		Gets or sets the folder identifier.
 	*/
 	public $folderId;
+    public  $folderId;
+    public $folderProperty;
+    public $folderMediaType;
 	/** 
 	* Initializes a new instance of the class.
 	*/

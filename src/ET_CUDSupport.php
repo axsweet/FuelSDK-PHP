@@ -10,7 +10,9 @@ use \Exception;
  */
 class ET_CUDSupport extends ET_GetSupport
 {
-
+    public  $folderId;
+    public $folderProperty;
+    public $folderMediaType;
     /**
     * @return ET_Post     Object of type ET_Post which contains http status code, response, etc from the POST SOAP service 
     */

@@ -15,6 +15,8 @@ class ET_ContentArea extends ET_CUDSupport
 	* @var int $folderId	Gets or sets the folder identifier.
 	*/ 
 	public  $folderId;
+    public $folderProperty;
+    public $folderMediaType;
 
     /**
     * Initializes a new instance of the class and will assign obj, folderProperty, folderMediaType property 

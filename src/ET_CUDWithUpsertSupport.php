@@ -9,6 +9,9 @@ namespace FuelSdk;
  */
 class ET_CUDWithUpsertSupport extends ET_CUDSupport
 {
+    public  $folderId;
+    public $folderProperty;
+    public $folderMediaType;
     /**
     * @return ET_Patch     Object of type ET_Patch which contains http status code, response, etc from the PATCH SOAP service 
     */
