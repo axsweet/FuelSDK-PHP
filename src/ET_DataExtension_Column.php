@@ -15,6 +15,7 @@ class ET_DataExtension_Column extends ET_GetSupport
     public  $folderId;
     public $folderProperty;
     public $folderMediaType;
+    public $filter;
 
 	function __construct()
 	{
